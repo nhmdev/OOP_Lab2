@@ -1,10 +1,11 @@
 # OOP_Lab2
 
-Del 1
+#Del 1
 
 Läs igenom uppgiften och identifiera alla klasser du kommer behöva skapa
 Rita upp dina klasser och deras förhållanden i ett klassdiagram
-Del 2
+
+#Del 2
 
 Skapa ett nytt console project i Visual Studio
 Skapa en abtrakt klass som heter "Animal"
@@ -14,7 +15,8 @@ Ge dessa klasser passande properties. Till exempel NumberOfLegs, CanSwim/Run/Fly
 Skapa klasser som ärver dessa klasser, till exempel "Dog" för "Mammal" etc.
 Ge även dessa passande properties
 Använd override på metoden i "Animal" för att ge varje typ av djur ett eget beteende
-Del 3
+
+#Del 3
 
 Skapa listor för de olika djuren
 Lägg till en main menu där användaren kan:
