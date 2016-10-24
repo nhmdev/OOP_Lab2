@@ -42,6 +42,8 @@
     <Compile Include="Cykle.cs" />
     <Compile Include="NonEngineBased.cs" />
     <Compile Include="HorseDrown.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="IO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.xml" />
