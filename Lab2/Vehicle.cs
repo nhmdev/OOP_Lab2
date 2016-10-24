@@ -4,10 +4,10 @@ namespace Lab2
 	public abstract class Vehicle
 	{
 		int speed;
-		int numberOfWheels;
-		int weight;
-		string manufacturer;
-		string model;
+		protected int numberOfWheels;
+		protected int weight;
+		protected string manufacturer;
+		protected string model;
 
 		public int Speed { get; }
 		public int NumberOfWheels { get; }
