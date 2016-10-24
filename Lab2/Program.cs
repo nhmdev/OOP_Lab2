@@ -2,7 +2,7 @@
 
 namespace Lab2
 {
-	class MainClass
+	class Program
 	{
 		public static void Main(string[] args)
 		{
