@@ -6,17 +6,17 @@ namespace Lab2
 		int busNumber;
 		bool inService;
 
-		public int BusNumber { get; }
-		public bool InService { get; }
+		public int BusNumber { get { return busNumber; } }
+		public bool InService { get { return inService; } }
 		public string Driver { get; set; }
 
-		public Bus(string manufacturer, string model, int numberOfWheels, int weight, int numberOfGears)
+		public Bus(string manufacturer,
+		           string model, 
+		           int numberOfWheels, 
+		           int weight, 
+		           int numberOfGears) : base(manufacturer,model,weight,numberOfWheels,numberOfGears)
 		{
-			this.manufacturer = manufacturer;
-			this.model = model;
-			this.numberOfWheels = numberOfWheels;
-			this.weight = weight;
-			this.numberOfGears = numberOfGears;
+			
 			
 		}
 

@@ -5,10 +5,13 @@ namespace Lab2
 	{
 		protected bool selfDriven;
 
-		public bool SelfDriven { get; }
+		public bool SelfDriven { get { return selfDriven; } }
 
 
-		public NonEngineBased()
+		public NonEngineBased(string manufacturer, 
+		                      string model, 
+		                      int weight, 
+		                      int numberOfWheels ) : base(manufacturer ,model ,weight ,numberOfWheels)
 		{
 
 		}

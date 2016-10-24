@@ -7,12 +7,16 @@ namespace Lab2
 		int activeGear;
 		bool engineIsOn;
 
-		public bool EngineIsOn { get; }
-		public int ActiveGear { get; }
+		public bool EngineIsOn { get { return engineIsOn; } }
+		public int ActiveGear { get { return activeGear; } }
 
-		public EngineBased()
+		protected EngineBased(string manufacturer,
+		                   string model, 
+		                   int weight, 
+		                   int numberOfWheels, 
+		                   int numberOfGears) : base(manufacturer, model,weight, numberOfWheels)
 		{
-
+			this.numberOfGears = numberOfGears;
 		}
 
 		public void startEngine()

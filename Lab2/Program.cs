@@ -6,7 +6,9 @@ namespace Lab2
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Car myOwnCar = new Car("Kia", "Rio", 2400,5);
+
+			Console.WriteLine(myOwnCar.NumberOfWheels);
 		}
 	}
 }

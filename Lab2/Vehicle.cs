@@ -3,21 +3,24 @@ namespace Lab2
 {
 	public abstract class Vehicle
 	{
-		int speed;
+		int speed = 0;
 		protected int numberOfWheels;
 		protected int weight;
 		protected string manufacturer;
 		protected string model;
 
-		public int Speed { get; }
-		public int NumberOfWheels { get; }
-		public int Weight { get; }
-		public string Manufacturer { get; }
-		public string Model { get; }
+		public int Speed { get { return speed;} }
+		public int NumberOfWheels { get { return numberOfWheels; } }
+		public int Weight { get { return weight; } }
+		public string Manufacturer { get { return manufacturer; } }
+		public string Model { get { return model; } }
 
-		public Vehicle()
+		protected Vehicle(string manufacturer, string model, int weight, int numberOfWheels )
 		{
-			
+			this.numberOfWheels = numberOfWheels;
+			this.weight = weight;
+			this.manufacturer = manufacturer;
+			this.model = model;
 
 		}
 

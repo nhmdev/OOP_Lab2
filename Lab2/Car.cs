@@ -5,8 +5,12 @@ namespace Lab2
 	{
 		public bool IsPublicTransport { get; set;}
 
-		public Car()
+		public Car(string manufacturer, 
+		           string model, 
+		           int weight, 
+		           int numberOfGears) : base (manufacturer, model,weight, 4,numberOfGears)
 		{
+			
 		}
 	}
 }
